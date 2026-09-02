@@ -1,0 +1,72 @@
+[
+    {
+        "content": "Enterprise Operations & Employee Handbook\nSample document for Production RAG practice\nPurpose and Scope\nThis fictional enterprise handbook contains employee policies, cloud engineering practices, security\nrequirements, and operational guidelines. It is designed for production RAG practice.\nAnnual Leave Policy\nFull-time employees are entitled to 24 working days of annual leave per calendar year. Leave requests",
+        "metadata": {
+            "source": "enterprise_employee.pdf",
+            "page": 1,
+            "file_path": "data\\raw\\enterprise_employee.pdf",
+            "chunk_id": "enterprise_employee.pdf_p1_c1",
+            "chunk_index": 1
+        }
+    },
+    {
+        "content": "should normally be submitted at least five working days in advance. Unused leave may be carried forward\nup to a maximum of 10 days, subject to local policy.\nRemote Work Policy\nEligible employees may work remotely up to two days per week with manager approval. Employees\nhandling confidential customer data must use approved corporate devices and connect through the\ncompany VPN when accessing internal systems remotely.\nInformation Security",
+        "metadata": {
+            "source": "enterprise_employee.pdf",
+            "page": 1,
+            "file_path": "data\\raw\\enterprise_employee.pdf",
+            "chunk_id": "enterprise_employee.pdf_p1_c2",
+            "chunk_index": 2
+        }
+    },
+    {
+        "content": "company VPN when accessing internal systems remotely.\nInformation Security\nPasswords must not be shared. Multi-factor authentication is required for production systems. Sensitive\ndocuments must be stored only in approved repositories. Suspected data exposure must be reported within\none hour.\nCloud Cost Optimization\nEngineering teams should review cloud spending monthly. Recommended practices include rightsizing",
+        "metadata": {
+            "source": "enterprise_employee.pdf",
+            "page": 1,
+            "file_path": "data\\raw\\enterprise_employee.pdf",
+            "chunk_id": "enterprise_employee.pdf_p1_c3",
+            "chunk_index": 3
+        }
+    },
+    {
+        "content": "virtual machines, enabling automatic scaling for variable workloads, shutting down unused non-production\nresources, and purchasing reserved capacity for predictable long-running workloads.\nProduction Monitoring\nProduction services must expose health checks and generate structured logs. Critical failures should trigger\nalerts. Teams should monitor latency, error rate, availability, and resource utilization.\nData Retention",
+        "metadata": {
+            "source": "enterprise_employee.pdf",
+            "page": 1,
+            "file_path": "data\\raw\\enterprise_employee.pdf",
+            "chunk_id": "enterprise_employee.pdf_p1_c4",
+            "chunk_index": 4
+        }
+    },
+    {
+        "content": "Data Retention\nOperational logs are retained for 90 days unless regulation or contract requires longer retention. Customer\ndata must follow product and regional retention requirements.\nAccess Control\nEnterprise access follows the principle of least privilege. Employees receive only permissions necessary for\ntheir role. Sensitive production access requires approval and periodic access reviews.\nAI and Knowledge Systems",
+        "metadata": {
+            "source": "enterprise_employee.pdf",
+            "page": 1,
+            "file_path": "data\\raw\\enterprise_employee.pdf",
+            "chunk_id": "enterprise_employee.pdf_p1_c5",
+            "chunk_index": 5
+        }
+    },
+    {
+        "content": "AI assistants using internal documents must retrieve information only from sources the requesting user is\nauthorized to access. Responses should provide source references when possible. Systems must be\nevaluated for incorrect retrieval, unsupported answers, prompt injection, and accidental exposure of\nconfidential information.\nIncident Response\nFor a critical production incident, the on-call engineer should acknowledge the alert, assess customer",
+        "metadata": {
+            "source": "enterprise_employee.pdf",
+            "page": 2,
+            "file_path": "data\\raw\\enterprise_employee.pdf",
+            "chunk_id": "enterprise_employee.pdf_p2_c1",
+            "chunk_index": 1
+        }
+    },
+    {
+        "content": "impact, and begin mitigation. After restoration, the team conducts a review and tracks corrective actions.",
+        "metadata": {
+            "source": "enterprise_employee.pdf",
+            "page": 2,
+            "file_path": "data\\raw\\enterprise_employee.pdf",
+            "chunk_id": "enterprise_employee.pdf_p2_c2",
+            "chunk_index": 2
+        }
+    }
+]
